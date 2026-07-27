@@ -1,4 +1,3 @@
-import { SearchInput } from './search-input'
 import { UserButton } from '@/components/header/user-button'
 
 export function Header() {
@@ -12,7 +11,6 @@ export function Header() {
       </div>
 
       <div className='flex items-center gap-4'>
-        <SearchInput />
         <UserButton />
       </div>
     </header>
